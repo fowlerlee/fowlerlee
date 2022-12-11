@@ -2,7 +2,7 @@
 - 👀 I’m interested in networks, Defi, Dapps, DAOs
 - 🌱 I’m currently learning libp2p
 - 💞️ I’m looking to collaborate on networks, Defi, Dapps, etc
-- 📫 How to reach me fowler.lee8@gmail.com
+- 📫 How to reach me 
 
 <!---
 fowlerlee/fowlerlee is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
