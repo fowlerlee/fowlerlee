@@ -1,0 +1,338 @@
+<!-- 
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  and adapted by Lee Fowler to a specific case. Find Nisar at:
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+  Email: syednisarhassan12@gmail.com
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Lee Fowler | A full-stack web developer (Java, Python, Go, React)
+  </title>
+
+  <meta name="description" content="Java and React developer ">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Lee Fowler, skilled in Java, Python, Go, React and Postgres" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#OpenSource" class="nav__link">OpenSource</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Lee Fowler</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>A Software Engineer based in Stockholm, Sweden.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Thermo-Calc Software</h3>
+              <p>
+                Worked as a Java and Python developer doing probability calculations
+                and plotting of data for nucleation physics. The software suite is generally
+                for Materials Physics and 3D printing calculation for Windows, Mac and Linux.
+              </p>
+              <ul class="work__list">
+                <li>Java 17</li>
+                <li>Concurrency</li>
+                <li>Python</li>
+                <li>Docker</li>
+                <li>Physics and Simulations</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://www.thermocalc.com" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                  <!-- Leave the below tag in place for layout to be aligned-->
+                </a>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/thermocalc.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>VaultBet Betting platform</h3>
+              <p>
+                I contributed to the VaultBet platform during their release for version 2,
+                with Rust and ReactJS development as a Blockchain developer on the Internet Computer.
+              </p>
+              <ul class="work__list">
+                <li>Rust</li>
+                <li>React.js</li>
+                <li>Motoko</li>
+                <li>Blockchain</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://vault-bet.com" class="link__text">
+                  Visit Site <span>&rarr;</span>                
+                </a>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/vaultbet.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Mobile property app</h3>
+              <p>
+                React Native app for property advertisement of apartments in 
+                the Phillipines - currently under development.
+              </p>
+              <ul class="work__list">
+                <li>React Native</li>
+                <li>Java Spring</li>
+                <li>Go</li>
+                <li>PostgreSQL</li>
+                <li>RabbitMq</li>
+                <li>Docker Compose</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/fowlerlee/property-app">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/propertyapp.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** OpenSource ***** -->
+
+<section class="work" id="work">
+  <div class="row">
+    <h2>OpenSource</h2>
+    <div class="work__boxes">
+
+      <!-- Each div with the work__box class is a project. -->
+
+      <div class="work__box">
+        <div class="work__text">
+            <h3>Dapr Distributed System</h3>
+            <p>
+              Side Car cloud pattern for cloud and edge.
+              I contributed to the placement api error handlding
+              so that error handling was done in accordance with
+              Google recommendations for Distributed systems 
+              related to Kubernetes.
+            </p>
+            <ul class="work__list">
+              <li>Go</li>
+              <li>Concurrency</li>
+              <li>Distributed Systems</li>
+              <li>Kubernetes</li>
+            </ul>
+
+          <div class="work__links">
+            <a href="https://dapr.io" target="_blank" class="link__text">
+              Visit Site <span>&rarr;</span>
+            <a href="https://github.com/dapr/dapr/pull/7835">
+              <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+            </a>
+          </div>
+        </div>
+        <div class="work__image-box">
+          <img src="./images/dapr.png" class="work__image" alt="Project 1" />
+        </div>
+      </div>
+
+      <div class="work__box">
+        <div class="work__text">
+          <h3>Dmail Blockchain protocol</h3>
+          <p>
+            I created the TLA+ specification for the protocol using Pluscal 
+            to ensure the system was designed to always deliver emails
+            to the blockchain, and upon failure into an server for retry.
+          </p>
+          <ul class="work__list">
+            <li>TLA+</li>
+            <li>PlusCal</li>
+            <li>Distributed Systems</li>
+            <li>Blockchain</li>
+          </ul>
+
+          <div class="work__links">
+            <a href="https://www.dmailfi.com" class="link__text">
+              Visit Site <span>&rarr;</span>
+            <a href="https://github.com/fowlerlee/dmailfi_gateway/commits/1-leefowler-smtpserverSpec/">
+              <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+            </a>
+          </div>
+        </div>
+        <div class="work__image-box">
+          <img src="./images/dmail.png" class="work__image" alt="Project 1" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              <p>
+                Academic background with a PhD in Materials Physics 
+                and diploma in Java web development with training bootcamp 
+                in Blockchain for Internet Computer. 
+              </p>
+              <p>
+                Experience developing on several projects on Internet Computer for 
+                Vault-Bet, Symphy and others. 
+              </p>
+              <p>
+                Opensource work on Dapr (side-car pattern for Kubernetes), 
+                and Dmail (smtp protocol for blockchain emails).
+              </p>
+              <p>
+                My interests are in concurrency for Java, Go, Rust 
+                distributed systems and operating systems. I love the 
+                complexity of parallel and async systems, and the problems that 
+                arise from memory accesses by competing processes. 
+              </p>
+
+              My favourite part of my day is developing algorithms in TLA+
+              then implmenting these in Go, Java and Rust.
+
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="https://github.com/fowlerlee/fowlerlee/leecv.png" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/lee.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Are you looking for help with designing your system? is your system
+          concurrent, async or distributed? if you have questions about these?
+          Please reach out and i will help you get your system up and running.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="fowler.lee8@gmail.com" class="btn">fowler.lee8@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://www.youtube.com/channel/UCZpiTVwt7t82ADba38-8yKA" title="Link to Youtube Channel">
+            <img src="./images/youtube.svg" class="footer__social-image" alt="Youtube">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/fowlerlee" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/lee-fowler-phd-76978196/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
