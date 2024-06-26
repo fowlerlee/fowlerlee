@@ -312,7 +312,7 @@
               after a read, but then of course we have the case of doing the same work based on the same message, since the 
               work is not idempotent. I propose you try instead to make the message delivery artificially idempotent, with 
               a number passed on each message and a boolean to indicate when the message is send once (False) or more than
-              once (True). The number of the message allows us to check for the messages existance via key-loop,
+              once (True). The number of the message allows us to check for the messages existance via key-lookup,
               as its common in maps.
             </p>
           <div class="pdf">
