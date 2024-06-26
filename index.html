@@ -41,6 +41,7 @@
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
+          <li class="nav__item"><a href="#Blog" class="nav__link">Blog</a></li>
           <li class="nav__item">
             <a href="#contact" class="nav__link">Contact</a>
           </li>
@@ -275,6 +276,67 @@
       </div>
     </section>
   </main>
+
+  <!-- Blog -->
+
+<section class="work" id="Blog">
+    <div class="row">
+        <h2>Blog</h2>
+
+        <p>Distributed Systems:</p>
+        <button class="collapsible">Orchestrators in TLA+ and Go</button>
+        <div class="content">
+          <p>Lets talk orchestrators
+            <p>
+              Borg was the predecessor to K8s and effectively the architecture is one where a master gives work to workers
+              where work is scheduled by a scheduler and work is initially given to the master by a client. The result is 
+              a system that is able to do work on demand and today Borg handles work such as editing a Google Sheet... (infinitum).
+              Its really quite amazing. Now lets be clear we will not build a system as impressive. We wish to do the work 
+              on a much smaller scale and eventually do larger tasks. The code herein for demo only, dont put into production.
+
+              Note: This post is meant to supplement the discussion on the video which can be viewed on Youtube 
+              at <a href="https://www.youtube.com/watch?v=hbVHDbVPPo4">link</a>. Also you should get TLA+ installed if you
+              wish to run the spec to see under what conditions the system will fail.
+            </p>
+            <p>
+              To begin we do a TLA+ spec wherein we describe the processes: Client, Manager and Worker. We dont care about 
+              scheduling for now, since then we need to discuss Weak and Strong Fairness, we just want to do some work. 
+              You will notice the messages that pass between the processes are structured as records. These are 
+              likely to be sent via RPC in a distributed system or via channels in a system running locally.
+              Take note of TypeOK, it specifies all the states these processes can be in during every step of the system
+              behaviour. If this Invariant is violated, we know that the spec rules is not held in some step of the 
+              system behaviour and so we have a bug. Notice how we describe the send and receive messages semantix,
+              we enqueue and dequeue the ordered Sequence (aka Queue) after each read of a message. Thus we have at
+              most one read of a message before its lost. What happens if the message is not processed completely due
+              to a failure of a process? How do handle this case? You might have guessed we can instead keep the message
+              after a read, but then of course we have the case of doing the same work based on the same message, since the 
+              work is not idempotent. I propose you try instead to make the message delivery artificially idempotent, with 
+              a number passed on each message and a boolean to indicate when the message is send once (False) or more than
+              once (True). The number of the message allows us to check for the messages existance via key-loop,
+              as its common in maps.
+            </p>
+          <div class="pdf">
+            <embed src="./blogs/channel.pdf" width="500" height="375" type="application/pdf">
+          </div> 
+          </p>
+        </div>
+        
+        <p>Concurrent Systems:</p>
+        <button class="collapsible">Open Section 1</button>
+        <div class="content">
+          <p>Coming soon.</p>
+        </div>
+        <button class="collapsible">Open Section 2</button>
+        <div class="content">
+          <p>Coming soon.</p>
+        </div>
+        <button class="collapsible">Open Section 3</button>
+        <div class="content">
+          <p>Coming soon.</p>
+        </div>
+      </div>
+  </section>
+
 
   <!-- ***** Contact ***** -->
 
