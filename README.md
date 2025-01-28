@@ -1,22 +1,20 @@
 <h1 align="center">Hi 👋, I'm <a href="https://fowlerlee.github.io/Me.io/" target="blank">
 Lee Fowler</a></h1>
-<h3 align="center">A passionate Full Stack App developer based in Stockholm, Sweden</h3>
+<h3 align="center">A passionate software developer based in Stockholm, Sweden</h3>
 
-<a target="_blank" align="center">
-  <img align="right" top="500" height="300" width="400" alt="GIF" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
-</a>
+- 🌱 I’m currently working on a OLTP Database in Rust see <a href="https://github.com/fowlerlee/sparrowDB" target="blank">SparrowDB</a>
 
 - 🔭 I’m currently working on opensource Dapr and do TLA+ specifications for blockchain projects <a href="https://dapr.io" target="blank">Dapr</a>
 
-- 🌱 I’m currently Working on a Mobile app (React Native + Java-Spring + Go + PostgreSql)
-
 - 🤝 I’m available for freelancing.
 
-- 🌱 I’m currently learning Distributed Algorithms Dijkstra's EWD's and Lamport´s works. I love concurrency, caches, OS dev, linearizability and consistency.
+- 🌱 I’m currently learning Distributed Algorithms Dijkstra's EWD's and Lamport´s works. I love concurrency, caches, databases, linearizability and consistency.
 
-- 📝 See my blogs on my Portfolio: [fowlerlee.github.io/fowlerleee](https://fowlerlee.github.io/fowlerlee/)
+- 📝 See my Portfolio: [fowlerlee.github.io/fowlerleee](https://fowlerlee.github.io/fowlerlee/)
 
-- 💬 Ask me about **Java & JVM & Go & Rust & concurrency & React-Native**
+- 📝 See my Blog: [https://concurrencycorner.blogspot.com](https://concurrencycorner.blogspot.com)
+
+- 💬 Ask me about **Java & JVM & Go & Rust & concurrency**
 
 - 📫 How to reach me **fowler.lee8@gmail.com**
 
@@ -38,10 +36,17 @@ Lee Fowler</a></h1>
 
 </p>
 
-### Youtube tutorials
+### Selected Blogs
 
 <!-- BLOG-POST-LIST:START -->
+- [Rate Limiters are everywhere: Distributed and Local](https://concurrencycorner.blogspot.com/2025/01/rate-limiters-are-everywhere.html)
+- [Cache and Buffer Pool Manager](https://concurrencycorner.blogspot.com/2025/01/cache-and-buffer-pool-manager.html)
+- [Workers - what can they do and what do they look like? Lets make a model in Go](https://concurrencycorner.blogspot.com/2024/11/workers-what-can-they-do-and-what-do.html)
+<!-- BLOG-POST-LIST:END -->
 
+### Selected Youtube tutorials
+
+<!-- BLOG-POST-LIST:START -->
 - [PlusCal and Golang design of Kubernetes](https://www.youtube.com/watch?v=hbVHDbVPPo4)
 - [Learn Rust Memory Fence once and for all](https://www.youtube.com/watch?v=a3TJDhr6KIE)
 - [Learn Rust Atomics once and for all](https://www.youtube.com/watch?v=17j32kn6DQQ)
