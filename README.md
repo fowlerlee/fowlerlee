@@ -16,7 +16,7 @@ Lee Fowler</a></h1>
 
 - 💬 Ask me about **Java & JVM & Go & Rust & concurrency**
 
-- 📫 How to reach me **fowler.lee8@gmail.com**
+- 📫 How to reach me **fowler[dot]lee8[at]gmail.com**
 
 - 📄 See my Education and Experience  on my <a href="https://github.com/fowlerlee/fowlerlee/blob/main/images/leecv.png" target="blank">Resume</a>
 <br/>
