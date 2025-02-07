@@ -2,7 +2,7 @@
 Lee Fowler</a></h1>
 <h3 align="center">A passionate software developer based in Stockholm, Sweden</h3>
 
-- 🌱 I’m currently working on a OLTP Database in Rust see <a href="https://github.com/fowlerlee/sparrowDB" target="blank">SparrowDB</a>
+- 🌱 I’m currently working on a OLTP Database in Rust see <a href="https://github.com/fowlerlee/sparrowDB" target="blank">KestrelDB</a>
 
 - 🔭 I’m currently working on opensource Dapr and do TLA+ specifications for blockchain projects <a href="https://dapr.io" target="blank">Dapr</a>
 
